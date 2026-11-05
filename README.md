@@ -2,7 +2,7 @@
 <h1 align="center">NetPulse</h1>
 <p align="center"><b>Every app, every connection, every packet.</b></p>
 <p align="center">Network Monitor · Windows 10/11 · x64 · ~12 MB · Free for personal use</p>
-<p align="center"><a href="https://github.com/tapatchUSA/NetPulse/releases/latest"><b>⬇ Download NetPulse 1.0.4</b></a> &nbsp;·&nbsp; <a href="https://tapatch.com/tools/netpulse/">tapatch.com/tools/netpulse</a></p>
+<p align="center"><a href="https://github.com/tapatchUSA/NetPulse/releases/latest"><b>⬇ Download NetPulse 1.0.5</b></a> &nbsp;·&nbsp; <a href="https://tapatch.com/tools/netpulse/">tapatch.com/tools/netpulse</a></p>
 
 <p align="center">
 <img src="screenshots/netpulse-v1.0.0-overview.png" alt="NetPulse — Overview: live speed, activity and connection quality"><br>
@@ -47,16 +47,18 @@ No account, no cloud, no telemetry. History, alerts and settings live only on th
 
 - Windows 10/11 only. Exact per-app traffic, packet capture, the firewall and the security checks need administrator rights (full monitoring) — without them NetPulse lists connections only. Packet capture sees this PC's own traffic, not other devices on your network, and the contents of HTTPS/QUIC stay encrypted.
 
-## What's new in 1.0.4
+## What's new in 1.0.5
 
-- Now runs on any Windows 10 or 11 PC, even a fresh install: it no longer needs the Microsoft Visual C++ Redistributable (no more "VCRUNTIME140.dll was not found")
-- Nothing else changed
+- New Custom theme: pick your own accent, background, panel and text colors
+- Background pictures and GIFs: add as many as you like in Settings, tick the ones to show (or Select all), and the ticked ones take turns
+- Sliders set how strong the picture is and how see-through the panels are; turn it off any time
+- The installer's license text matches the current Terms, and THIRD-PARTY-NOTICES.txt lists the open-source parts it uses
 
 Release notes for every version are on the [Releases](https://github.com/tapatchUSA/NetPulse/releases) page and in [release-notes/](release-notes/).
 
 ## Install
 
-1. Download **NetPulse-Setup-1.0.4.exe** from the [latest release](https://github.com/tapatchUSA/NetPulse/releases/latest) or from [tapatch.com](https://tapatch.com/tools/netpulse/).
+1. Download **NetPulse-Setup-1.0.5.exe** from the [latest release](https://github.com/tapatchUSA/NetPulse/releases/latest) or from [tapatch.com](https://tapatch.com/tools/netpulse/).
 2. Run it. The installer and the app come in 10 languages.
 3. Accept the Terms of Service on first launch.
 
@@ -73,19 +75,20 @@ scoop install tapatch/netpulse
 
 | Version | Released | Installer | VirusTotal | SHA-256 |
 |---|---|---|---|---|
-| [1.0.4](https://github.com/tapatchUSA/NetPulse/releases/tag/v1.0.4) | 2026-10-17 | [NetPulse-Setup-1.0.4.exe](https://github.com/tapatchUSA/NetPulse/releases/download/v1.0.4/NetPulse-Setup-1.0.4.exe) | [0 / 71](https://www.virustotal.com/gui/file/be44cc5ddc7186a8f56c40327fb86ceb6e202b377577c4b731634c728e439ca8/detection) | `be44cc5ddc7186a8…` |
+| [1.0.5](https://github.com/tapatchUSA/NetPulse/releases/tag/v1.0.5) | 2026-11-04 | [NetPulse-Setup-1.0.5.exe](https://github.com/tapatchUSA/NetPulse/releases/download/v1.0.5/NetPulse-Setup-1.0.5.exe) | [0 / 71](https://www.virustotal.com/gui/file/03517ff7f75c26ce8d64af4b65a0516ada25ceb0d14d55c8af21a915a62d3e75/detection) | `03517ff7f75c26ce…` |
+| [1.0.4](https://github.com/tapatchUSA/NetPulse/releases/tag/v1.0.4) | 2026-10-17 | [NetPulse-Setup-1.0.4.exe](https://github.com/tapatchUSA/NetPulse/releases/download/v1.0.4/NetPulse-Setup-1.0.4.exe) | [0 / 70](https://www.virustotal.com/gui/file/be44cc5ddc7186a8f56c40327fb86ceb6e202b377577c4b731634c728e439ca8/detection) | `be44cc5ddc7186a8…` |
 | [1.0.3](https://github.com/tapatchUSA/NetPulse/releases/tag/v1.0.3) | 2026-10-01 | [NetPulse-Setup-1.0.3.exe](https://github.com/tapatchUSA/NetPulse/releases/download/v1.0.3/NetPulse-Setup-1.0.3.exe) | [0 / 70](https://www.virustotal.com/gui/file/645818cb2901415e1d54014000b56e145b0aaef34c65871bd26d52841377300d/detection) | `645818cb2901415e…` |
-| [1.0.2](https://github.com/tapatchUSA/NetPulse/releases/tag/v1.0.2) | 2026-09-30 | [NetPulse-Setup-1.0.2.exe](https://github.com/tapatchUSA/NetPulse/releases/download/v1.0.2/NetPulse-Setup-1.0.2.exe) | [0 / 62](https://www.virustotal.com/gui/file/16e6f9a5a537c10137002667630efc4d8e1367409717c13a5cc89a489b542d35/detection) | `16e6f9a5a537c101…` |
+| [1.0.2](https://github.com/tapatchUSA/NetPulse/releases/tag/v1.0.2) | 2026-09-30 | [NetPulse-Setup-1.0.2.exe](https://github.com/tapatchUSA/NetPulse/releases/download/v1.0.2/NetPulse-Setup-1.0.2.exe) | [0 / 70](https://www.virustotal.com/gui/file/16e6f9a5a537c10137002667630efc4d8e1367409717c13a5cc89a489b542d35/detection) | `16e6f9a5a537c101…` |
 | [1.0.1](https://github.com/tapatchUSA/NetPulse/releases/tag/v1.0.1) | 2026-09-27 | [NetPulse-Setup-1.0.1.exe](https://github.com/tapatchUSA/NetPulse/releases/download/v1.0.1/NetPulse-Setup-1.0.1.exe) | [0 / 71](https://www.virustotal.com/gui/file/e0b0e8e5c5018e359c88fc35cdaad30280b455ddabf1e7f704293f7a7601e3d1/detection) | `e0b0e8e5c5018e35…` |
-| [1.0.0](https://github.com/tapatchUSA/NetPulse/releases/tag/v1.0.0) | 2026-09-25 | [NetPulse-Setup-1.0.0.exe](https://github.com/tapatchUSA/NetPulse/releases/download/v1.0.0/NetPulse-Setup-1.0.0.exe) | [0 / 71](https://www.virustotal.com/gui/file/05345c516a02daa434e29148a0c05164d9b19118fbe6addc2f831ed3b0a39132/detection) | `05345c516a02daa4…` |
+| [1.0.0](https://github.com/tapatchUSA/NetPulse/releases/tag/v1.0.0) | 2026-09-25 | [NetPulse-Setup-1.0.0.exe](https://github.com/tapatchUSA/NetPulse/releases/download/v1.0.0/NetPulse-Setup-1.0.0.exe) | [0 / 64](https://www.virustotal.com/gui/file/05345c516a02daa434e29148a0c05164d9b19118fbe6addc2f831ed3b0a39132/detection) | `05345c516a02daa4…` |
 
 ## Security
 
-Every installer is scanned on VirusTotal before release. NetPulse 1.0.4: **0 / 71** engines flag it · [view report](https://www.virustotal.com/gui/file/be44cc5ddc7186a8f56c40327fb86ceb6e202b377577c4b731634c728e439ca8/detection)
+Every installer is scanned on VirusTotal before release. NetPulse 1.0.5: **0 / 71** engines flag it · [view report](https://www.virustotal.com/gui/file/03517ff7f75c26ce8d64af4b65a0516ada25ceb0d14d55c8af21a915a62d3e75/detection)
 
 **SHA-256**
 ```
-be44cc5ddc7186a8f56c40327fb86ceb6e202b377577c4b731634c728e439ca8
+03517ff7f75c26ce8d64af4b65a0516ada25ceb0d14d55c8af21a915a62d3e75
 ```
 
 ## Built with
