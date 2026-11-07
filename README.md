@@ -2,7 +2,7 @@
 <h1 align="center">NetPulse</h1>
 <p align="center"><b>Every app, every connection, every packet.</b></p>
 <p align="center">Network Monitor · Windows 10/11 · x64 · ~12 MB · Free for personal use</p>
-<p align="center"><a href="https://github.com/tapatchUSA/NetPulse/releases/latest"><b>⬇ Download NetPulse 1.0.5</b></a> &nbsp;·&nbsp; <a href="https://tapatch.com/tools/netpulse/">tapatch.com/tools/netpulse</a></p>
+<p align="center"><a href="https://github.com/tapatchUSA/NetPulse/releases/latest"><b>⬇ Download NetPulse 1.0.6</b></a> &nbsp;·&nbsp; <a href="https://tapatch.com/tools/netpulse/">tapatch.com/tools/netpulse</a></p>
 
 <p align="center">
 <img src="screenshots/netpulse-v1.0.0-overview.png" alt="NetPulse — Overview: live speed, activity and connection quality"><br>
@@ -47,18 +47,16 @@ No account, no cloud, no telemetry. History, alerts and settings live only on th
 
 - Windows 10/11 only. Exact per-app traffic, packet capture, the firewall and the security checks need administrator rights (full monitoring) — without them NetPulse lists connections only. Packet capture sees this PC's own traffic, not other devices on your network, and the contents of HTTPS/QUIC stay encrypted.
 
-## What's new in 1.0.5
+## What's new in 1.0.6
 
-- New Custom theme: pick your own accent, background, panel and text colors
-- Background pictures and GIFs: add as many as you like in Settings, tick the ones to show (or Select all), and the ticked ones take turns
-- Sliders set how strong the picture is and how see-through the panels are; turn it off any time
-- The installer's license text matches the current Terms, and THIRD-PARTY-NOTICES.txt lists the open-source parts it uses
+- Device names in DHCP packets no longer end in an empty box when the device pads them with zero characters
+- The English text now uses American spelling everywhere
 
 Release notes for every version are on the [Releases](https://github.com/tapatchUSA/NetPulse/releases) page and in [release-notes/](release-notes/).
 
 ## Install
 
-1. Download **NetPulse-Setup-1.0.5.exe** from the [latest release](https://github.com/tapatchUSA/NetPulse/releases/latest) or from [tapatch.com](https://tapatch.com/tools/netpulse/).
+1. Download **NetPulse-Setup-1.0.6.exe** from the [latest release](https://github.com/tapatchUSA/NetPulse/releases/latest) or from [tapatch.com](https://tapatch.com/tools/netpulse/).
 2. Run it. The installer and the app come in 10 languages.
 3. Accept the Terms of Service on first launch.
 
@@ -75,6 +73,7 @@ scoop install tapatch/netpulse
 
 | Version | Released | Installer | VirusTotal | SHA-256 |
 |---|---|---|---|---|
+| [1.0.6](https://github.com/tapatchUSA/NetPulse/releases/tag/v1.0.6) | 2026-11-07 | [NetPulse-Setup-1.0.6.exe](https://github.com/tapatchUSA/NetPulse/releases/download/v1.0.6/NetPulse-Setup-1.0.6.exe) | [0 / 71](https://www.virustotal.com/gui/file/c71bfb9a83cc6b412f1ec94646b88ffc5cdc32ef9c13d93a4a83e77fdd9a9409/detection) | `c71bfb9a83cc6b41…` |
 | [1.0.5](https://github.com/tapatchUSA/NetPulse/releases/tag/v1.0.5) | 2026-11-05 | [NetPulse-Setup-1.0.5.exe](https://github.com/tapatchUSA/NetPulse/releases/download/v1.0.5/NetPulse-Setup-1.0.5.exe) | [0 / 71](https://www.virustotal.com/gui/file/03517ff7f75c26ce8d64af4b65a0516ada25ceb0d14d55c8af21a915a62d3e75/detection) | `03517ff7f75c26ce…` |
 | [1.0.4](https://github.com/tapatchUSA/NetPulse/releases/tag/v1.0.4) | 2026-10-17 | [NetPulse-Setup-1.0.4.exe](https://github.com/tapatchUSA/NetPulse/releases/download/v1.0.4/NetPulse-Setup-1.0.4.exe) | [0 / 70](https://www.virustotal.com/gui/file/be44cc5ddc7186a8f56c40327fb86ceb6e202b377577c4b731634c728e439ca8/detection) | `be44cc5ddc7186a8…` |
 | [1.0.3](https://github.com/tapatchUSA/NetPulse/releases/tag/v1.0.3) | 2026-10-01 | [NetPulse-Setup-1.0.3.exe](https://github.com/tapatchUSA/NetPulse/releases/download/v1.0.3/NetPulse-Setup-1.0.3.exe) | [0 / 70](https://www.virustotal.com/gui/file/645818cb2901415e1d54014000b56e145b0aaef34c65871bd26d52841377300d/detection) | `645818cb2901415e…` |
@@ -84,11 +83,11 @@ scoop install tapatch/netpulse
 
 ## Security
 
-Every installer is scanned on VirusTotal before release. NetPulse 1.0.5: **0 / 71** engines flag it · [view report](https://www.virustotal.com/gui/file/03517ff7f75c26ce8d64af4b65a0516ada25ceb0d14d55c8af21a915a62d3e75/detection)
+Every installer is scanned on VirusTotal before release. NetPulse 1.0.6: **0 / 71** engines flag it · [view report](https://www.virustotal.com/gui/file/c71bfb9a83cc6b412f1ec94646b88ffc5cdc32ef9c13d93a4a83e77fdd9a9409/detection)
 
 **SHA-256**
 ```
-03517ff7f75c26ce8d64af4b65a0516ada25ceb0d14d55c8af21a915a62d3e75
+c71bfb9a83cc6b412f1ec94646b88ffc5cdc32ef9c13d93a4a83e77fdd9a9409
 ```
 
 ## Built with
