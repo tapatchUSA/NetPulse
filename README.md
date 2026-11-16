@@ -18,6 +18,8 @@
 
 NetPulse shows exactly which program is using your internet, how much, and where it goes — from Windows' own kernel network events, so the numbers per app are exact. Keep history as long as you like, block any app in one click, check your network for hijacking and open doors, and capture packets with a plain-English explanation of each one. Everything is measured and stored on your PC: no account, no cloud, no telemetry.
 
+[![Watch on YouTube](https://img.youtube.com/vi/dYOZXUKcCE8/hqdefault.jpg)](https://www.youtube.com/watch?v=dYOZXUKcCE8)
+
 ## Features
 
 A network monitor, a firewall and a packet viewer that explains itself — in one app that never phones home.
