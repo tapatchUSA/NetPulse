@@ -2,7 +2,7 @@
 <h1 align="center">NetPulse</h1>
 <p align="center"><b>Every app, every connection, every packet.</b></p>
 <p align="center">Network Monitor · Windows 10/11 · x64 · ~12 MB · Free for personal use</p>
-<p align="center"><a href="https://github.com/tapatchUSA/NetPulse/releases/latest"><b>⬇ Download NetPulse 1.0.7</b></a> &nbsp;·&nbsp; <a href="https://tapatch.com/tools/netpulse/">tapatch.com/tools/netpulse</a></p>
+<p align="center"><a href="https://github.com/tapatchUSA/NetPulse/releases/latest"><b>⬇ Download NetPulse 1.0.8</b></a> &nbsp;·&nbsp; <a href="https://tapatch.com/tools/netpulse/">tapatch.com/tools/netpulse</a></p>
 
 <p align="center">
 <img src="screenshots/netpulse-v1.0.0-overview.png" alt="NetPulse — Overview: live speed, activity and connection quality"><br>
@@ -49,16 +49,17 @@ No account, no cloud, no telemetry. History, alerts and settings live only on th
 
 - Windows 10/11 only. Exact per-app traffic, packet capture, the firewall and the security checks need administrator rights (full monitoring) — without them NetPulse lists connections only. Packet capture sees this PC's own traffic, not other devices on your network, and the contents of HTTPS/QUIC stay encrypted.
 
-## What's new in 1.0.7
+## What's new in 1.0.8
 
-- Now opens in virtual machines, Remote Desktop and on PCs without a graphics driver: it switches to Direct3D 12 when OpenGL doesn't work
-- If the window still can't open, a message says why instead of the app closing without a word
+- The text at the top of the Firewall and Security pages no longer runs under the button on the right in smaller windows
+- Long values on the Security page now end in … instead of spilling out of the row; hover to see the full text
+- The Where column under Connections is wider, and long country names end in … instead of being cut off mid-letter
 
 Release notes for every version are on the [Releases](https://github.com/tapatchUSA/NetPulse/releases) page and in [release-notes/](release-notes/).
 
 ## Install
 
-1. Download **NetPulse-Setup-1.0.7.exe** from the [latest release](https://github.com/tapatchUSA/NetPulse/releases/latest) or from [tapatch.com](https://tapatch.com/tools/netpulse/).
+1. Download **NetPulse-Setup-1.0.8.exe** from the [latest release](https://github.com/tapatchUSA/NetPulse/releases/latest) or from [tapatch.com](https://tapatch.com/tools/netpulse/).
 2. Run it. The installer and the app come in 10 languages.
 3. Accept the Terms of Service on first launch.
 
@@ -75,6 +76,7 @@ scoop install tapatch/netpulse
 
 | Version | Released | Installer | VirusTotal | SHA-256 |
 |---|---|---|---|---|
+| [1.0.8](https://github.com/tapatchUSA/NetPulse/releases/tag/v1.0.8) | 2026-11-18 | [NetPulse-Setup-1.0.8.exe](https://github.com/tapatchUSA/NetPulse/releases/download/v1.0.8/NetPulse-Setup-1.0.8.exe) | [0 / 71](https://www.virustotal.com/gui/file/373771d758041ec2c55346ff75171fcab6c73a32c29b646b1922b3aa0b94d2dc/detection) | `373771d758041ec2…` |
 | [1.0.7](https://github.com/tapatchUSA/NetPulse/releases/tag/v1.0.7) | 2026-11-11 | [NetPulse-Setup-1.0.7.exe](https://github.com/tapatchUSA/NetPulse/releases/download/v1.0.7/NetPulse-Setup-1.0.7.exe) | [0 / 71](https://www.virustotal.com/gui/file/131d84815b36f71668e3596046c977993f146c9712707b4b68a2d8941386c32c/detection) | `131d84815b36f716…` |
 | [1.0.6](https://github.com/tapatchUSA/NetPulse/releases/tag/v1.0.6) | 2026-11-07 | [NetPulse-Setup-1.0.6.exe](https://github.com/tapatchUSA/NetPulse/releases/download/v1.0.6/NetPulse-Setup-1.0.6.exe) | [0 / 71](https://www.virustotal.com/gui/file/c71bfb9a83cc6b412f1ec94646b88ffc5cdc32ef9c13d93a4a83e77fdd9a9409/detection) | `c71bfb9a83cc6b41…` |
 | [1.0.5](https://github.com/tapatchUSA/NetPulse/releases/tag/v1.0.5) | 2026-11-05 | [NetPulse-Setup-1.0.5.exe](https://github.com/tapatchUSA/NetPulse/releases/download/v1.0.5/NetPulse-Setup-1.0.5.exe) | [0 / 71](https://www.virustotal.com/gui/file/03517ff7f75c26ce8d64af4b65a0516ada25ceb0d14d55c8af21a915a62d3e75/detection) | `03517ff7f75c26ce…` |
@@ -86,11 +88,11 @@ scoop install tapatch/netpulse
 
 ## Security
 
-Every installer is scanned on VirusTotal before release. NetPulse 1.0.7: **0 / 71** engines flag it · [view report](https://www.virustotal.com/gui/file/131d84815b36f71668e3596046c977993f146c9712707b4b68a2d8941386c32c/detection)
+Every installer is scanned on VirusTotal before release. NetPulse 1.0.8: **0 / 71** engines flag it · [view report](https://www.virustotal.com/gui/file/373771d758041ec2c55346ff75171fcab6c73a32c29b646b1922b3aa0b94d2dc/detection)
 
 **SHA-256**
 ```
-131d84815b36f71668e3596046c977993f146c9712707b4b68a2d8941386c32c
+373771d758041ec2c55346ff75171fcab6c73a32c29b646b1922b3aa0b94d2dc
 ```
 
 ## Built with
